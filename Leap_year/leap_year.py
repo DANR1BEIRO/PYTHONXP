@@ -13,7 +13,9 @@ def leap_year(prompt):
     while True:
         try:
             year_input = int(input(prompt))
-            if (year_input % 4 == 0 and year_input % 100 != 0) or (year_input % 400 == 0):
+            if year_input <= 0:
+                print("Year must be greater than zero!")
+            elif (year_input % 4 == 0 and year_input % 100 != 0) or (year_input % 400 == 0):
                 return "It's a leap year!"
             else:
                 return "Isn't a leap year!"
@@ -25,8 +27,6 @@ if __name__=="__main__":
     year = leap_year("Enter a year to check whether it is a leap year or not: ")
     print(year)
     
-
-
 # def leap_year(year):
 #     if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
 #         leap = "It's a leap year"
