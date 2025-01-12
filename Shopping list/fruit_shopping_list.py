@@ -2,10 +2,10 @@ import time
 
 def fruit_list():
     """
-    A function that displays a list of available fruits for purchase with
+     A function that displays a list of available fruits for purchase with
     their respective prices and asks the user which item and quantity they
     want to add to their shopping list. At the end, it shows the quantity
-    of each item and the total purchase amount
+    of each item and the total purchase amount.
     """
     # dict to store the selected fruits, their quantities and prices 
     fruit_list = {} 
