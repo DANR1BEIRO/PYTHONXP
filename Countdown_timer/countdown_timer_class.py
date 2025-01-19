@@ -45,6 +45,7 @@ class countdowntimer:
         while True:
             try:
                 choose = int(input(f"Enter how much {self.time_measurement} do you want: "))
+                # converts every unit of time into seconds
                 if choose > 0:
                     if self.time_measurement == 'minutes':
                         choose *= 60
