@@ -27,7 +27,7 @@ def fibonacci():
     return sequence
 
 if __name__=="__main__":
-    result = fibonacci()
-    fibonacci_cubed = list(map(cube, result))
-    print(f"The fibonacci sequence cubed is {fibonacci_cubed}")
+    fibo = fibonacci()
+    fibonacci_cubed = list(map(cube, fibo))
+    print(f"The cubed fibonacci sequence up to {len(fibo)} {'term' if len(fibo) == 1 else 'terms'} is {fibonacci_cubed}")
 
