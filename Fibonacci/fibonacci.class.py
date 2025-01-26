@@ -20,7 +20,7 @@ class fibonacci:
 
         sequence = [0, 1]
     
-        for term in range(2, self.term):
+        for i in range(2, self.term):
             next_term = sequence[-1] + sequence[-2]
             sequence.append(next_term)
         return sequence
