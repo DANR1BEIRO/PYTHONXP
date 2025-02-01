@@ -32,7 +32,7 @@ class Rectangle:
     
 def display_values(*objs):
     """
-    DIsplays the string representation of multiple objects
+    Displays the string representation of multiple objects
     args:
     *objs: A variable numbers of objects to display
     """
