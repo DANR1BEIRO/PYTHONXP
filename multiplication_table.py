@@ -1,6 +1,6 @@
 def multiply_table(prompt):
     """
-    A function that asks the user for a number and returns its multiplication table
+    A function that asks the user for a number and returns its multiplication table.
     """
     while True:
         try:
