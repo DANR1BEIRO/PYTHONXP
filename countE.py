@@ -1,6 +1,7 @@
 noE = ["A", "b", "C", "c", "z"]
 yesE = ["e", "M","z", "E", "e", "q"]
 
+
 def findE(arr):
     counter = {"E":0, "e":0}
 
@@ -14,6 +15,7 @@ def findE(arr):
 
 findE(yesE)
 findE(noE)
+
 
 
 
