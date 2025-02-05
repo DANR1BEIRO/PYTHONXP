@@ -12,11 +12,12 @@ def findE(arr):
     if counter["E"] == 0 and counter["e"] == 0:
         print("\nThere's no \"E\" or \"e\" letter")
     else:
-        print(f"{counter["E"]} {"letters" if counter["E"] > 1 else "letter"} E") 
-        print(f"{counter["e"]} {"letters" if counter["e"] > 1 else "letter"} e")
+        print(f"{counter["E"]} {"letters" if counter["E"] > 1 else "letter"} E.") 
+        print(f"{counter["e"]} {"letters" if counter["e"] > 1 else "letter"} e.")
 
 findE(yesE)
 findE(noE)
+
 
 
 
