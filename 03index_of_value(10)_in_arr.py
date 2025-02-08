@@ -1,5 +1,7 @@
 """""
-Return the index of an arr[value] if value == 10 else -1
+Declare an array of integer numbers, then create a program that
+verifies if the number 10 exists in the array. If it does, display its index;
+otherwise, display -1
 """
 
 # 1
