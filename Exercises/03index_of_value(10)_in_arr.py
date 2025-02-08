@@ -1,7 +1,7 @@
 """""
 Declare an array of integer numbers, then create a program that
 verifies if the number 10 exists in the array. If it does, display its index;
-otherwise, display -1
+otherwise, display -1.
 """
 
 # 1
