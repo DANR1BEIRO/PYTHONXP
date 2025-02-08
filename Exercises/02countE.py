@@ -1,3 +1,8 @@
+# Declare a variable that assigns an array of letters,
+# then create a program that counts how many letters "E" and "e"
+# exist in the array
+
+
 noE = ["A", "b", "C", "c", "z"]
 yesE = ["e", "M","z", "E", "e", "q", "E", "E"]
 
