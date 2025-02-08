@@ -17,6 +17,7 @@ def find_A(array):
 
 print(find_A(names))
 
+
 def find_A2(array):
     names_a2 = []
     for name in array:
@@ -27,4 +28,8 @@ def find_A2(array):
 print(find_A2(names))
 
 
+def find_A3(array):
+    return [name for name in array if name.lower().startswith("a")]
+
+print(find_A3(names))
             
