@@ -36,7 +36,7 @@ def linear_time2(array):
     
     min_number = max_number = array[0]
     
-    # loop through the array to find the min and max number
+    # loop through the array to find the min and max number.
     for number in array:
         if number < min_number:
             min_number = number
