@@ -1,7 +1,7 @@
 """ 
 A delivery company is having difficulty organizing the
 sorting of orders and needs to create a routine that
-organizeds the order in a queue based o priority
+organizeds the order in a queue based on priority
 
 tasks:
 1 - add a new order "order 15" at the end of the queue
