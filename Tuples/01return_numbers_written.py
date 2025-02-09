@@ -4,7 +4,7 @@ counting from zero to twenty. The program must ask for a integer
 as input and return it as a number in words.
 """
 
-def number_in_words(number=int):
+def number_in_words():
     written_in_words = ("zero", "one", "two", "three", 
                        "four", "five", "six", "seven",
                        "eight", "nine", "ten", "eleven",
@@ -23,7 +23,7 @@ def number_in_words(number=int):
         except ValueError:
             print("Must be an integer number")
             
-print(f"You've enter the number {number_in_words()}")
+print(f"You've entered the number {number_in_words()}")
 
 
 # def number_in_words2(number=int):
