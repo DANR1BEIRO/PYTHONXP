@@ -1,7 +1,7 @@
 """
 Create a program that has a tuple with numbers written in words,
 counting from zero to twenty. The program must ask for a integer
-as input and return it as a number in words
+as input and return it as a number in words.
 """
 
 def number_in_words(number=int):
