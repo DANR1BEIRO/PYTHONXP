@@ -19,11 +19,11 @@ print(find_A(names))
 
 
 def find_A2(array):
-    names_a2 = []
+    names_a = []
     for name in array:
         if name[0] == "A" or name[0] == "a":
-            names_a2.append(name)
-    return names_a2
+            names_a.append(name)
+    return names_a
 
 print(find_A2(names))
 
