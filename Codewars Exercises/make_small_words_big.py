@@ -17,19 +17,19 @@ towards the character limit of a word.
 e.g: "it's / I'm" should become: "t's / I'M
 """
 
-def small_word_helper(sentence):
-    words = sentence.split()
+def small_words(string):
+    words = string.split()
     vowels = "aeiouAEIOU"
     result = []
-    
+
     for word in words:
         if len(word) <= 3:
             result.append(word.upper())
-            
+
         else:
-            no_vowels = "".join([char for char in word if char not in vowels])
-            result.append(no_vowels)
-    
+            no_vowel = "".join([letter for letter in word if letter not in vowels])
+            result.append(no_vowel)
+            
     return " ".join(result)
 
-print(small_word_helper("The quick brown fox jumps over the lazy dog"))
+print(small_words("The quick brown fox jumps over the lazy dog"))
