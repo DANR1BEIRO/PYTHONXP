@@ -6,7 +6,8 @@ numbers in the array
 [8, 11, 4, 1]
 
 expected:
-display 10, because the largest difference is 11 - 1 = 10
+display 10, because the largest difference 
+is 11 - 1 = 10
 
 """
 
