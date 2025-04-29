@@ -1,0 +1,35 @@
+- 60 days of Python programming
+- [x] Day 1 - Hello World!
+- [x] Day 2 - Sum of two numbers
+- [x] Day 3 - Check even or odd
+- [x] Day 4 - Loop
+- [x] Day 5 - A Function that prints the square root of a number
+- [x] Day 6 - Fruit list
+- [x] Day 7 - Static and dynamic student dictionary
+- [x] Day 8 - Verify the driver's age
+- [x] Day 9 - Input counter
+- [x] Day 10 - Random Password generator
+- [x] Day 11 - Takes a user specified number of integer inputs and sorts them in ascending and descending order
+- [x] Day 12 - Linear Search
+- [x] Day 13 - Recursive factorial function
+- [x] Day 14 - Function to check prime numbers
+- [x] Day 15 - Fibonacci sequence
+- [x] Day 16 - anagram
+- [x] Day 17 - Palindrome
+- [x] Day 18 - Counting words
+- [x] Day 19 - Calculate the average of grades
+- [x] Day 20 - Transpose matrix
+- [x] Day 21 - Currency converter
+- [x] Day 22 - Calculate BMI
+- [x] Day 23 - Guess game
+- [x] Day 24 - Multiplication table
+- [x] Day 25 - Random number generator
+- [x] Day 26 - Write and read a txt file
+- [x] Day 27 - Converts celsius to fahrenheit and vice versa
+- [x] Day 28 - Timer
+- [x] Day 29 - Current date and hour
+- [x] Day 30 - 10 sec countdown timer
+- [x] Day 31 - Calculate the square root
+- [x] Day 32 - Launch die
+- [x] Day 33 - Count occurrences
+- [x] Day 34 - Json
